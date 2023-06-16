@@ -35,9 +35,10 @@ namespace Dev_Loading
             // btn_Loading
             // 
             this.btn_Loading.Font = new System.Drawing.Font("微軟正黑體", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Loading.Location = new System.Drawing.Point(282, 24);
+            this.btn_Loading.Location = new System.Drawing.Point(71, 64);
+            this.btn_Loading.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Loading.Name = "btn_Loading";
-            this.btn_Loading.Size = new System.Drawing.Size(221, 102);
+            this.btn_Loading.Size = new System.Drawing.Size(332, 153);
             this.btn_Loading.TabIndex = 0;
             this.btn_Loading.Text = "LOADING";
             this.btn_Loading.UseVisualStyleBackColor = true;
@@ -45,10 +46,11 @@ namespace Dev_Loading
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(495, 675);
             this.Controls.Add(this.btn_Loading);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

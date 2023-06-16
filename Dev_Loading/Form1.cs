@@ -31,12 +31,16 @@ namespace Dev_Loading
             try
             {
                 waitFormFunc.show(this);
+                btn_Loading.Enabled = false;
                 Thread.Sleep(5000);
-                this.Cursor = Cursors.WaitCursor;
+                btn_Loading.Enabled = true;
+                //this.Cursor = Cursors.WaitCursor;
                 waitFormFunc.close();
             }
-            catch { }
-
+            catch (Exception ex)
+            {
+                MessageBox.Show("下載出現異常");            
+            }
 
         }
     }
